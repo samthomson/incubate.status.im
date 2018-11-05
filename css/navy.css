@@ -1260,6 +1260,12 @@ h1
   color: #fff;
   background: #008bad;
 }
+.project-cover-link {
+  color: #fff !important;
+  background: none !important;
+  padding: 0 !important;
+  margin-top: 0 !important;
+}
 @media (max-width: 491px) {
   .project,
   .project2 {
@@ -3176,6 +3182,13 @@ body {
   max-width: 1200px;
   width: 100%;
 }
+.intro a {
+  text-decoration: none;
+  color: #008bad;
+}
+.intro a:hover {
+  opacity: 0.7;
+}
 .intro .button {
   width: 278px;
   margin-left: 20px;
@@ -3304,7 +3317,7 @@ pre code {
 }
 .forward-text {
   width: 60%;
-  padding: 100px 40px;
+  padding: 100px 20px;
   text-align: left;
   float: left;
   display: block;
@@ -3332,7 +3345,7 @@ pre code {
   width: 33%;
   float: left;
   display: block;
-  padding: 100px 30px;
+  padding: 100px 40px 100px 20px;
   height: 400px;
   -webkit-box-lines: multiple;
   -moz-box-lines: multiple;
@@ -3342,6 +3355,7 @@ pre code {
 }
 .feature img {
   margin-bottom: 20px;
+  height: 38px;
 }
 .feature h3 {
   font-weight: bold;
@@ -3358,7 +3372,7 @@ pre code {
 @media (max-width: 767px) {
   .forward-text {
     width: 100%;
-    padding: 100px 40px 0px;
+    padding: 100px 20px;
   }
   .forward-img {
     text-align: center;
@@ -3596,4 +3610,10 @@ footer .container .more {
     flex: 0 0 100%;
     max-width: 100%;
   }
+}
+.team-name {
+  margin: 12px 0 0 0 !important;
+}
+.team-position {
+  margin: 0 0 12px 0 !important;
 }
