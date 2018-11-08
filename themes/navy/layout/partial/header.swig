@@ -4,7 +4,7 @@
             <a href="https://status.im/"></a>
         </div>
         <nav>
-            <b>missing nav now</b>
+            {{ partial('mock-status-menu/partials/header-nav') }}
         </nav>
     </div>
     <a href="#" class="mobile-menu-trigger">
